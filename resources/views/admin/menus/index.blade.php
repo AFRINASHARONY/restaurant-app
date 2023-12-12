@@ -7,6 +7,12 @@
 
     <div class="py-12">
         <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="m-2 flex justify-end p-2">
+                <a href="{{ route('admin.menus.create') }}"
+                    class="rounded-lg bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-700">
+                    Create Menu
+                </a>
+            </div>
             <div class="relative overflow-x-auto">
                 <table class="w-full text-left text-sm text-gray-500 rtl:text-right dark:text-gray-400">
                     <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
